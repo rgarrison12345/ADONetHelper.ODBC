@@ -8,7 +8,7 @@
     <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper.ODBC.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.1.6</Version>
+    <Version>1.1.7</Version>
     <PackageTags>Odbc System.Data.Odbc ORM ADO.NET ADO SQL .NET Database RDBMS Generic DAL Odbc ANSI</PackageTags>
     <Copyright>Copyright © Robert Garrison 2018</Copyright>
     <Authors>Robert Garrison</Authors>
@@ -19,7 +19,7 @@
     <Description>Extends ADONetHelper library to Odbc</Description>
     <IncludeSource>true</IncludeSource>
     <IncludeSymbols>true</IncludeSymbols>
-    <PackageReleaseNotes>Updating to ADONetHelper 3.1.1</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating to ADONetHelper 3.1.2</PackageReleaseNotes>
     <AssemblyName>ADONetHelper.Odbc</AssemblyName>
     <RootNamespace>ADONetHelper.Odbc</RootNamespace>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\ADONetHelper.Odbc.xml</DocumentationFile>
@@ -30,7 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
-    <PackageReference Include="ADONetHelper" Version="3.1.1" />
+    <PackageReference Include="ADONetHelper" Version="3.1.2" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)'!='net20' And '$(TargetFramework)'!='net35' And '$(TargetFramework)'!='net40' And '$(TargetFramework)'!='net45'">
     <PackageReference Include="System.Data.Odbc" Version="4.5.0" />
