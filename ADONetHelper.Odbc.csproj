@@ -3,7 +3,7 @@
     <TargetFrameworks>netcoreapp2.0;netstandard2.0;net461;net45;net40;net35;net20;</TargetFrameworks>
     <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/rgarrison12345/ADONetHelper.ODBC/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/rgarrison12345/ADONetHelper.ODBC/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/rgarrison12345/ADONetHelper.ODBC</PackageProjectUrl>
     <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper.ODBC.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
