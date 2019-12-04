@@ -1,6 +1,6 @@
 ﻿#region Licenses
 /*MIT License
-Copyright(c) 2018
+Copyright(c) 2019
 Robert Garrison
 
 Permission Is hereby granted, free Of charge, To any person obtaining a copy
@@ -22,6 +22,7 @@ OUT Of Or In CONNECTION With THE SOFTWARE Or THE USE Or OTHER DEALINGS In THE
 SOFTWARE*/
 #endregion
 #region Using Statements
+using ADONetHelper.Core;
 using System.Data;
 using System.Data.Odbc;
 #endregion
@@ -34,6 +35,10 @@ namespace ADONetHelper.Odbc
     /// <seealso cref="DbClient"/>
     public class OdbcClient : DbClient
     {
+        #region Events
+        #endregion
+        #region Fields/Properties
+        #endregion
         #region Constructors
         /// <summary>
         /// The overloaded constuctor that will initialize the <paramref name="connectionString"/>, And <paramref name="queryCommandType"/>
@@ -62,7 +67,7 @@ namespace ADONetHelper.Odbc
         /// </summary>
         /// <param name="connection">An instance of <see cref="OdbcConnection"/> to use to query a database </param>
         public OdbcClient(OdbcConnection connection) : base(connection)
-        {
+        { 
         }
         /// <summary>
         /// Insantiates a new instance of <see cref="OdbcClient"/> using the passed in <paramref name="connectionString"/> and <paramref name="factory"/>
