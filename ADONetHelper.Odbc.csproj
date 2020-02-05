@@ -7,7 +7,7 @@
     <RepositoryUrl>https://github.com/rgarrison12345/ADONetHelper.ODBC.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>1.3.1</Version>
+    <Version>1.3.2</Version>
     <PackageTags>Odbc System.Data.Odbc ORM ADO.NET ADO SQL .NET Database RDBMS Generic DAL Odbc ANSI</PackageTags>
     <Copyright>Copyright © Robert Garrison 2019</Copyright>
     <Authors>Robert Garrison</Authors>
@@ -18,7 +18,7 @@
     <Description>Extends ADONetHelper library to Odbc</Description>
     <IncludeSource>true</IncludeSource>
     <IncludeSymbols>true</IncludeSymbols>
-    <PackageReleaseNotes>Updating to ADONetHelper 4.0.2</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating to ADONetHelper 4.0.8</PackageReleaseNotes>
     <AssemblyName>ADONetHelper.Odbc</AssemblyName>
     <RootNamespace>ADONetHelper.Odbc</RootNamespace>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\ADONetHelper.Odbc.xml</DocumentationFile>
@@ -32,7 +32,7 @@
     <None Include="LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
     <None Include="README.md" Pack="true" PackagePath="README.md" />
     <PackageReference Include="ADONetHelper" Version="4.0.2" />
-    <PackageReference Include="System.Data.Odbc" Version="4.7.0" />
+    <PackageReference Include="System.Data.Odbc" Version="4.8.0" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <DebugSymbols>true</DebugSymbols>
